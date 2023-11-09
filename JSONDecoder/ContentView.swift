@@ -8,14 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let dataType: [DataType] = Bundle.main.decode("jsonfile.json")
+    
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        
+        NavigationStack {
+            List {
+                ForEach(dataType) { dataType in
+                    Section {
+                        Text(dataType.id)
+                    } header: {
+                        Text(dataType.name)
+                    }
+                }
+            }
+            .navigationTitle("JSON")
         }
-        .padding()
+        .ignoresSafeArea()
     }
 }
 

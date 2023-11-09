@@ -11,6 +11,9 @@
 		900F8DE92AFD65BE009B8BE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900F8DE82AFD65BE009B8BE5 /* ContentView.swift */; };
 		900F8DEB2AFD65BF009B8BE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900F8DEA2AFD65BF009B8BE5 /* Assets.xcassets */; };
 		900F8DEE2AFD65BF009B8BE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900F8DED2AFD65BF009B8BE5 /* Preview Assets.xcassets */; };
+		900F8DF52AFD65EF009B8BE5 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900F8DF42AFD65EF009B8BE5 /* Bundle-Decodable.swift */; };
+		900F8DF72AFD6615009B8BE5 /* DataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900F8DF62AFD6615009B8BE5 /* DataType.swift */; };
+		900F8DFD2AFD68E2009B8BE5 /* jsonfile.json in Resources */ = {isa = PBXBuildFile; fileRef = 900F8DFC2AFD68E2009B8BE5 /* jsonfile.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		900F8DE82AFD65BE009B8BE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		900F8DEA2AFD65BF009B8BE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		900F8DED2AFD65BF009B8BE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		900F8DF42AFD65EF009B8BE5 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		900F8DF62AFD6615009B8BE5 /* DataType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataType.swift; sourceTree = "<group>"; };
+		900F8DFC2AFD68E2009B8BE5 /* jsonfile.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = jsonfile.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				900F8DE62AFD65BE009B8BE5 /* JSONDecoderApp.swift */,
 				900F8DE82AFD65BE009B8BE5 /* ContentView.swift */,
+				900F8DF42AFD65EF009B8BE5 /* Bundle-Decodable.swift */,
+				900F8DF62AFD6615009B8BE5 /* DataType.swift */,
+				900F8DFC2AFD68E2009B8BE5 /* jsonfile.json */,
 				900F8DEA2AFD65BF009B8BE5 /* Assets.xcassets */,
 				900F8DEC2AFD65BF009B8BE5 /* Preview Content */,
 			);
@@ -125,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				900F8DFD2AFD68E2009B8BE5 /* jsonfile.json in Resources */,
 				900F8DEE2AFD65BF009B8BE5 /* Preview Assets.xcassets in Resources */,
 				900F8DEB2AFD65BF009B8BE5 /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				900F8DF52AFD65EF009B8BE5 /* Bundle-Decodable.swift in Sources */,
+				900F8DF72AFD6615009B8BE5 /* DataType.swift in Sources */,
 				900F8DE92AFD65BE009B8BE5 /* ContentView.swift in Sources */,
 				900F8DE72AFD65BE009B8BE5 /* JSONDecoderApp.swift in Sources */,
 			);
